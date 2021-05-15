@@ -2,54 +2,44 @@
 
 ## Steps to Follow:
 
-***Step 1 - Download***
-
-***Step 2 - Install***
-
-***Step 3 - Open the software***
+>***Step 1 - Download***
+>
+>***Step 2 - Install***
 
 ## Specific instructions in each step are described as below:
 
-**Step 1 - Download**: 
+**Step 1 - Download**:
 
-* Go to the [https://qgis.org/en/site/](https://qgis.org/en/site/) and follow the instruction below to download the right version of *QGIS (3.8.10)*.
+**1.** Go to the [https://qgis.org/en/site/](https://qgis.org/en/site/) and follow the instruction below to download the right version of *QGIS (3.10.8)*.
 
-![qgis_mainpage](../images/qgis_mainpage.png)
+&nbsp;&nbsp;&nbsp;&nbsp;**1.1** Click the *Download Now* button at the bottom-left of the webpage to enter the *Download QGIS for your platform* webpage.
 
-![qgis_allrelease](../images/qgis_allrelease.png)
+&nbsp;&nbsp;&nbsp;&nbsp;**1.2** Click the *ALL RELEASES* tab at the upper-middle of the webpage and click *Previous releases of QGIS are still available here* to find all previous version of QGIS.
 
-![qgis_version_3.10.8](../images/qgis_version_3.10.8.png)
+&nbsp;&nbsp;&nbsp;&nbsp;**1.3** Go find and download *QGIS-OSGeo4W-3.10.8-1-Setup-x86_64.exe* if you are using 64-bit system, or download *QGIS-OSGeo4W-3.10.8-1-Setup-x86.exe* if you are using 32-bit system.
 
-* Go to the [https://github.com/chjch](https://github.com/chjch) and follow the instruction below to download **_lucis_qgis_** folder.
+**2.** Go to [https://github.com/chjch/lucis_qgis](https://github.com/chjch/lucis_qgis) and follow the instruction below to download **_lucis_qgis_** folder.
 
-![download_github1](../images/download_github1.png)
-![download_github2](../images/download_github2.png)
+&nbsp;&nbsp;&nbsp;&nbsp;**2.1** Click the green *Code* button at the upper-right of the webpage and click *Download ZIP* to download the **_lucis_qgis_** folder.
 
-**Step 2 - Install**: 
+**Step 2 - Install**:
 
-* Double-click the *QGIS (3.8.10)* installation file you just downloaded from last step, follow the instructions to install the application on your computer.
+**1.** Double-click the *QGIS (3.10.8)* installation file you just downloaded from **Step 1**, follow the instructions to install the QGIS on your computer.
 
-* Unzip the *lucis_qgis* file (the file name is **lucis_qgis-master**) you just download from last step.
-  * Open the *install* folder and the copy the *QGIS 3.10.8* folder to the root folder of the *QGIS (3.8.10)* (**here is the QGIS 3.10**).
-![ins_pylusat3](../images/ins_pylusat3.png)
-![ins_pylusat1](../images/ins_pylusat1.png)
-![ins_pylusat2](../images/ins_pylusat2.png)
-  * Open the *QGIS 3.10.8* folder we just added and double click the *install_pylusat* file.
-![ins_pylusat4](../images/ins_pylusat4.png)
-  * Specify the root folder of **QGIS 3.10** for the first question and type *Y*
-for the second question.
-![ins_pylusat5](../images/ins_pylusat5.png)
-  * Press Enter key and wait the installation to be completed.
+**2.** Unzip the *lucis_qgis* zip file (the zip file's name is *lucis_qgis-master*) you just download from **Step 1** to get *lucis_qgis-master* folder.
 
-**Step 3 - Open the software**: 
+&nbsp;&nbsp;&nbsp;&nbsp;**2.1** Double click *lucis_qgis-master* folder, open the *install* folder and the copy the *QGIS 3.10.8* folder to the root folder of the *QGIS (3.10.8)* (normally, the default path would be *C:\Program Files (x86)\QGIS 3.10*).
 
-* Open the QGIS 3.10 folder on the desktop and double click the *QGIS Desktop 3.10.8* file. 
-![QGIS_Script_add0](../images/QGIS_Script_add0.png)
-* Click the python icon in the *Processing Toolbox* and click *add script to tool box*.
-![QGIS_Script_add1](../images/QGIS_Script_add1.png)
-  * Find the the *lucis_qgis* folder we download in the first step and open the *algorithm* folder.
-![QGIS_Script_add2](../images/QGIS_Script_add2.png)
-![QGIS_Script_add3](../images/QGIS_Script_add3.png)
-  * Add all files into the QGIS. And you can find all the tools in the *Scripts* branch in the *Processing Toolbox*.
-![QGIS_Scripts_add](../images/QGIS_Scripts_add.png)
-![QGIS_Script_add4](../images/QGIS_Script_add4.png)
+&nbsp;&nbsp;&nbsp;&nbsp;**2.2** Open the *QGIS 3.10.8* folder we just added and double click the *install_pylusat* file.
+
+&nbsp;&nbsp;&nbsp;&nbsp;**2.3** The window will ask you to specify the root folder of *QGIS 3.10* for the first question (normally, the default path would be *C:\Program Files (x86)\QGIS 3.10*). For the second question, type *Y*.
+
+&nbsp;&nbsp;&nbsp;&nbsp;**2.4** Press Enter key and wait the installation to be completed.
+
+## For adding tools in to QGIS:
+
+Click [Tools Installation](https://github.com/chjch/lucis_qgis/wiki/Installation#tools-installation).
+
+
+
+
